@@ -5,7 +5,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import './intro.css';
 import myDevices from './devices.svg';
 import myImage from './MeMe.png';
-import Technology from './technology'
+
 
 
 
@@ -65,12 +65,12 @@ export default function Intro(){
                 <br></br>
                 <Typography variant="h6">I design and code efficiently, and I love what I do.</Typography>
             </div>
-            <div className='profile'>
-                <img src={myImage} alt="error"></img>
+            <div >
+                <img src={myImage} className='rounded-circle'  width={"auto"} height={"250rem"} alt="error"></img>
             </div>
 
-            <img src={myDevices} className='devices' alt='Error'></img>
-            <div className='detail-intro'>
+            <img src={myDevices} className='img-fluid' alt='Error' style={{width:"800px"}}></img>
+            <div className='mt-4 p-5 bg-primary text-white rounded'>
                 <ThemeProvider theme={theme1}>
                     <Typography variant="h4" color={"white"} style={{paddingTop: "50px"}}>
                         Hi, I’m Mohan. Nice to meet you.
@@ -78,12 +78,13 @@ export default function Intro(){
                 </ThemeProvider>
                 <ThemeProvider theme={theme2}>
                     <Typography variant="h6" color={"white"} style={{paddingTop: "5vh",paddingBottom:"4vh",width:"80%",margin:'auto'}}>
-                        Ea dolore minim ad ad esse nostrud cupidatat ullamco dolore Lorem reprehenderit incididunt eu exercitation. Amet nulla commodo dolor proident velit tempor ut velit non velit. Proident ut dolor ex officia dolore laborum labore magna consequat incididunt qui duis incididunt. Irure dolor commodo pariatur do sint do consectetur exercitation ut. Proident occaecat velit non id enim excepteur reprehenderit minim. Ea in cillum non ad amet dolore nisi sit velit voluptate ex sint et dolore.
+                    I am an extremely curious and self-motivated individual with a huge passion for design in general. As an autodidact, I take a very positive and ego-free approach to all aspects of my life, and I carry a strong work ethic with me wherever I go.
                     </Typography>
                 </ThemeProvider>
                 
-                <Technology/>   
+               
             </div>
+            
         </div>
     );
 }

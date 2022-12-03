@@ -21,10 +21,10 @@ function renderSwitch(param) {
 
 export default function MyData(props){
       const styl = {
-        display:'inline-block',width:"28rem",marginTop:'5vh',
+        display:'flex',marginTop:'10vh',justifyContent: 'center',alignItems:'center',
       }
     return(
-        <div style={styl}>
+        <div className="card" style={styl}>
             <Avatar
                 alt="Tech"
                 sx={{ width: 90, height: 90 ,backgroundColor:"#42FFC4",margin:'3vh auto'}}
@@ -34,7 +34,7 @@ export default function MyData(props){
 
             <h1>{props.role}</h1>
             
-            <p>{props.roleinfo}</p>
+            <p style={{width:"20rem"}}>{props.roleinfo}</p>
 
             <h5 style={{color:"blue"}}>{props.header1}</h5>
 

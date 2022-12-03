@@ -1,44 +1,13 @@
 .intro-heading{
-    margin-top: 100px;;
+    margin-top: 6vh;
 }
 .intro{
     height: fit-content;
-
 }
 
-.profile{
-    /* background-color: rgb(204, 127, 239); */
-    box-shadow: 0px 0px 80px 20px rgb(68, 114, 174);
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    position: relative;
-    background-color: #a6a9b0;  
-    margin: 50px auto;
-    overflow-y: hidden;
-}
 
-.profile > img{
-    height: 350px;
-    
-    margin-top:-100px;
-    object-fit: contain;
-}
 
-.devices{
-    width: 800px;
-    margin-top: 5%;
-}
-/* rgb(169, 36, 231) */
-.detail-intro{
-    background-color: rgb(18, 88, 180);
-    height: 50vh;
-    width: 99%;
-    margin: 0 auto;
-}
 
-@media screen and (max-width: 601px) {
-    .detail-intro {
-      height: 70vh;
-    }
-  }
+
+
+
