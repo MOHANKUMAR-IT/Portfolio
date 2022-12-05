@@ -13,7 +13,7 @@ export default function Codebase(){
             "title":"Cloud Based Virtula Labs",
             "description":"Cloud virtual labs supported by docker backend and SSH shells for worry free usage for students.",
             "github-link":"https://github.com/MOHANKUMAR-IT/Cloud-Based-Virtual-Labs",
-            "site-link"
+            "site-link":"",
         },
         {
             "img":"http://www.tcedesk.tk:31355/home.png",
